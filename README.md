@@ -1,6 +1,12 @@
 # tts
 Instantly listen to highlighted text on MacOS. It works by creating an Apple service and assigning a hotkey to it.
 
+
+
+https://github.com/user-attachments/assets/12609edc-9a0e-437d-861b-70d1c96c3166
+
+
+
 This works by creating an `Apple Automator` service in your `~/Library/Services` to run a shell script and call OpenAI text-to-speech API (which works incredibly well and sounds very natural.)
 
 ## Installation
