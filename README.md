@@ -1,10 +1,10 @@
 # tts
 Instantly listen to highlighted text on MacOS. It works by creating an Apple service and assigning a hotkey to it.
 
-<audio controls>
-  <source src="./sample.mp4" type="audio/mpeg">
-  Your browser does not support the audio tag.
-</audio>
+<video controls="" autoplay="" name="media">
+    <source src="sound.mp3" type="audio/mp3">
+</video>
+
 
 This works by creating an `Apple Automator` service in your `~/Library/Services` to run a shell script and call OpenAI text-to-speech API (which works incredibly well and sounds very natural.)
 
