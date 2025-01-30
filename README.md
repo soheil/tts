@@ -2,7 +2,7 @@
 Instantly listen to highlighted text on MacOS. It works by creating an Apple service and assigning a hotkey to it.
 
 <audio controls>
-  <source src="sample.mp3" type="audio/mpeg">
+  <source src="./sample.mp4" type="audio/mpeg">
   Your browser does not support the audio tag.
 </audio>
 
