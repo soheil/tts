@@ -2,7 +2,7 @@
 Instantly listen to highlighted text on MacOS. It works by creating an Apple service and assigning a hotkey to it.
 
 <video controls="" autoplay="" name="media">
-    <source src="sound.mp3" type="audio/mp3">
+    <source src="sample.mp4" type="video/mp4">
 </video>
 
 
