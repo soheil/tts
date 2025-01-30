@@ -1,10 +1,16 @@
 # tts
 Instantly listen to highlighted text on MacOS. It works by creating an Apple service and assigning a hotkey to it.
 
-## Installation
+<audio controls>
+  <source src="sample.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+
 This works by creating an `Apple Automator` service in your `~/Library/Services` to run a shell script and call OpenAI text-to-speech API (which works incredibly well and sounds very natural.)
 
-### Install Option A: Copy tts.workflow to your Services Dir
+## Installation
+
+### Option A (simple)
 
 1. Add your `OPENAI_API_KEY` in: [tts.workflow/Contents/document.wflow](./tts.workflow/Contents/document.wflow)
 2. `cp -r tts.workflow ~/Library/Services/`
@@ -12,7 +18,7 @@ This works by creating an `Apple Automator` service in your `~/Library/Services`
 4. Select any text in any app and press your hotkey to listen to it.
 
 
-### Install Option B: Create Automator Service Manually
+### (Option B)
 
 1. Open Automator app on your Mac
 2. Go to File menu and click on New then select Quick Action as type
